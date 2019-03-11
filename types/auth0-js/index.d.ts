@@ -809,6 +809,7 @@ export interface AuthorizeOptions {
     domain?: string;
     clientID?: string;
     connection?: string;
+    connectionScope?: string;
     redirectUri?: string;
     responseType?: string;
     responseMode?: string;
